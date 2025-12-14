@@ -7,8 +7,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import java.util.UUID;
-
 @SpringBootApplication
 public class InventoryServiceApplication {
 
@@ -21,19 +19,19 @@ public class InventoryServiceApplication {
     CommandLineRunner commandLineRunner(ProductRepository productRepository) {
         return args -> {
             productRepository.save(Product.builder()
-                    .id(UUID.randomUUID().toString())
+                    .id("p-1")
                     .name("Computer")
                     .price(3200)
                     .quantity(11)
                     .build());
             productRepository.save(Product.builder()
-                    .id(UUID.randomUUID().toString())
+                    .id("p-2")
                     .name("Printer")
                     .price(1299)
                     .quantity(10)
                     .build());
             productRepository.save(Product.builder()
-                    .id(UUID.randomUUID().toString())
+                    .id("p-3")
                     .name("Smart Phone")
                     .price(5400)
                     .quantity(8)
