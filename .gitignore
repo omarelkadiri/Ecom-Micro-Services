@@ -37,3 +37,18 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/CONFIG_CORRECTED.md
+/CONFIG_SERVER_README.md
+/FICHIERS_MODIFIES.md
+/INDEX.md
+/OPERATIONS_GUIDE.md
+/pom.xml
+/PROFILES_GUIDE.md
+/QUICK_START.md
+/README_CONFIG_SERVER.md
+/run.sh
+/SETUP_SUMMARY.md
+/SOLUTIONS.md
+/start-services.sh
+/test-config.sh
+/VERIFICATION_FINALE.md
